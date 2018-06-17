@@ -2,6 +2,12 @@
 
 A TensorFlow implementation of [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](http://arxiv.org/pdf/1312.6082.pdf) 
 
+1. Addressed the problem of recognizing arbitrary multi-digit street numbers from unconstrained Google StreetView imagery.
+2. To this end, designed and trained a Deep Convolutional Neural Network consisting of 10 hidden layers.
+3. Used the publicly available SVHN dataset to train and evalaute the model.
+4. Used [this paper](http://arxiv.org/pdf/1312.6082.pdf) as benchmark to compare performance and achieved an accuracy of 96.4% and 93.5% on the test and independent validation datasets.
+5. The accuracy is defined as an instance of a test image is considered to be a success only if all the characters in the image are correctly recognized. 
+
 
 ## Requirements
 
